@@ -7,8 +7,9 @@ module.exports = {
     'plugin:jest-dom/recommended',
     'plugin:testing-library/react',
     'plugin:tailwindcss/recommended',
+    'plugin:vitest/recommended',
   ],
-  plugins: ['jsx-a11y', 'jest-dom', 'testing-library', 'tailwindcss'],
+  plugins: ['jsx-a11y', 'jest-dom', 'testing-library', 'tailwindcss', 'vitest'],
   rules: {
     'no-duplicate-imports': 'error',
     'import/no-unresolved': 'error',
