@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:msw": "NEXT_PUBLIC_MOCK_API=true next dev",
     "build": "next build",
     "start": "next start",
     "test": "vitest",
@@ -36,11 +37,15 @@
     "eslint-plugin-testing-library": "^6.1.2",
     "eslint-plugin-vitest": "^0.3.9",
     "jsdom": "^22.1.0",
+    "msw": "^2.0.4",
     "postcss": "^8",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.0",
     "typescript": "^5",
     "vitest": "^0.34.6"
+  },
+  "msw": {
+    "workerDirectory": ""
   }
 }
